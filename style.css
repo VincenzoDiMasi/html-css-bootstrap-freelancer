@@ -91,11 +91,17 @@ header {
 
 /* PORTFOLIO */
 
-#portfolio h2 {
-  color: black;
-}
 
 /* ABOUT */
+
+
+@media screen and (max-width: 576px) {
+  .cs-btn-width {
+    width: 153px;
+  }
+  
+}
+
 
 /* FOOTER */
 
