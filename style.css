@@ -1,59 +1,65 @@
-
-
 /*! CUSTOM PROPERTIES */
 
 :root{
-    --header-color: rgb(44,62,80);
-    --green: rgb(26,188,156);
-    --footer-color: rgb(58,84,109);
+  --header-color: rgb(44,62,80);
+  --green: rgb(26,188,156);
+  --footer-color: rgb(58,84,109);
 }
 
 /*+ DEBUG - REMOVE */
 
 .debug{
-    border: 1px dashed black ;
+  border: 1px dashed black ;
 }
 
 .debug.red{
-    border-color: red;
+  border-color: red;
 }
 
 .debug.yellow{
-    border-color: yellow;
+  border-color: yellow;
 }
 
 .cs-height-sm{
-    height: 3rem;
+  height: 3rem;
 }
 
 .cs-height-md{
-    height: 15rem;
+  height: 15rem;
 }
 
 .cs-height-lg{
-    height: 20rem;
+  height: 20rem;
 }
 
 .cs-height-xl{
-    height: 30rem;
+  height: 30rem;
 }
 
 /*! GENERICS */
 
 body{
-    color: white;
+  color: white;
 }
 
 section:nth-child(odd){
-    background-color: var(--green);
+  background-color: var(--green);
 }
 
 /*! HEADER */
 
 header {
-    height: 80px;
-    background-color: var(--header-color);
-    color: white;
+  height: 80px;
+  background-color: var(--header-color);
+  color: white;
+}
+
+.filter-invert {
+  filter: invert(1);
+}
+
+.grw {
+  flex-grow: 0;
 }
 
 /*! JUMBOTRON */
@@ -61,7 +67,7 @@ header {
 /* PORTFOLIO */
 
 #portfolio h2 {
-    color: black;
+  color: black;
 }
 
 /* ABOUT */
@@ -69,5 +75,75 @@ header {
 /* FOOTER */
 
 footer {
-    background-color: var(--footer-color);
+  background-color: var(--footer-color);
+}/*! CUSTOM PROPERTIES */
+
+:root{
+  --header-color: rgb(44,62,80);
+  --green: rgb(26,188,156);
+  --footer-color: rgb(58,84,109);
+}
+
+/*+ DEBUG - REMOVE */
+
+.debug{
+  border: 1px dashed black ;
+}
+
+.debug.red{
+  border-color: red;
+}
+
+.debug.yellow{
+  border-color: yellow;
+}
+
+.cs-height-sm{
+  height: 3rem;
+}
+
+.cs-height-md{
+  height: 15rem;
+}
+
+.cs-height-lg{
+  height: 20rem;
+}
+
+.cs-height-xl{
+  height: 30rem;
+}
+
+/*! GENERICS */
+
+body{
+  color: white;
+}
+
+section:nth-child(odd){
+  background-color: var(--green);
+}
+
+/*! HEADER */
+
+header {
+  height: 80px;
+  background-color: var(--header-color);
+  color: white;
+}
+
+/*! JUMBOTRON */
+
+/* PORTFOLIO */
+
+#portfolio h2 {
+  color: black;
+}
+
+/* ABOUT */
+
+/* FOOTER */
+
+footer {
+  background-color: var(--footer-color);
 }
