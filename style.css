@@ -6,36 +6,6 @@
   --footer-color: rgb(58,84,109);
 }
 
-/*+ DEBUG - REMOVE */
-
-.debug{
-  border: 1px dashed black ;
-}
-
-.debug.red{
-  border-color: red;
-}
-
-.debug.yellow{
-  border-color: yellow;
-}
-
-.cs-height-sm{
-  height: 3rem;
-}
-
-.cs-height-md{
-  height: 15rem;
-}
-
-.cs-height-lg{
-  height: 20rem;
-}
-
-.cs-height-xl{
-  height: 30rem;
-}
-
 /*! GENERICS */
 
 body{
@@ -107,74 +77,6 @@ header {
 
 footer {
   background-color: var(--footer-color);
-}/*! CUSTOM PROPERTIES */
-
-:root{
-  --header-color: rgb(44,62,80);
-  --green: rgb(26,188,156);
-  --footer-color: rgb(58,84,109);
+  min-height: 80px;
 }
 
-/*+ DEBUG - REMOVE */
-
-.debug{
-  border: 1px dashed black ;
-}
-
-.debug.red{
-  border-color: red;
-}
-
-.debug.yellow{
-  border-color: yellow;
-}
-
-.cs-height-sm{
-  height: 3rem;
-}
-
-.cs-height-md{
-  height: 15rem;
-}
-
-.cs-height-lg{
-  height: 20rem;
-}
-
-.cs-height-xl{
-  height: 30rem;
-}
-
-/*! GENERICS */
-
-body{
-  color: white;
-}
-
-section:nth-child(odd){
-  background-color: var(--green);
-}
-
-/*! HEADER */
-
-header {
-  height: 80px;
-  background-color: var(--header-color);
-  color: white;
-}
-
-/*! JUMBOTRON */
-
-/* PORTFOLIO */
-
-#portfolio h2 {
-  color: black;
-}
-
-/* ABOUT */
-
-/* FOOTER */
-
-footer {
-  background-color: var(--footer-color);
-}
